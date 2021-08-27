@@ -5,7 +5,7 @@ from tkinter.constants import COMMAND
 #opening file explorer and send succses message
 def appimport():
     os.system("Explorer")
-    mylabel = tkinter.Label(root, text= 'File Exlorer was successfully opened', bg='#5982b5', fg='white')
+    mylabel = tkinter.Label(root, text= 'File Exlorer was successfully opened', bg='lightgreen', fg='white')
     mylabel.pack()
 
 root = tkinter.Tk()
@@ -16,6 +16,6 @@ mybutton.pack()
 
 # box color name and size
 root.title("Open folder")
-root.configure(bg='#5982b5')
+root.configure(bg='lightgreen')
 
 root.mainloop()
